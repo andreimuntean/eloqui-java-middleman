@@ -53,13 +53,47 @@ public class DataCollector implements DeviceListener {
         yawW = 0;
         currentPose = new Pose();
     }
+    public void print(){
 
+        System.out.print(" X AXIS: ");
+        if((rollW > 7)&&(rollW<13)){
+            System.out.print("[NORMAL]");
+        }else if(rollW <8){
+            System.out.print("[CLOCKWISE]");
+        }else{
+            System.out.print("[COUNTER]");
+        }
+
+        System.out.print("(Y AXIS) :");
+        if(pitchW < 6) {
+            System.out.print("[DOWN]");
+        }else if (pitchW < 12) {
+                System.out.print("[MEDIUM]");
+
+            }else {
+                System.out.print("[UP]");
+            }
+
+        System.out.print("(Z AXIS) :");
+        if(yawW < 6) {
+            System.out.print("[OUTWARDS]");
+        }else if (yawW < 12){
+                System.out.print("[SIDEWAYS]");
+            }else{
+            System.out.print("[INWARDS]");
+        }
+        System.out.println();
+
+
+
+    }
     @Override
     public void onOrientationData(Myo myo, long timestamp, Quaternion rotation) {
         Quaternion normalized = rotation.normalized();
 
         //motionList.add(rotation);
-        if(counter==100) {
+        if(counter==200) {
+            this.print();
             //System.out.println("Orientation Data = (" + rotation.getX() + "," + rotation.getY() + "," + rotation.getZ() + "," + rotation.getZ() + ")");
             counter=0;
         }

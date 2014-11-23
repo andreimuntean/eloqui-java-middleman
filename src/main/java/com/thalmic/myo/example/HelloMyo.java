@@ -31,7 +31,7 @@ public class HelloMyo {
             hub.addListener(dataCollector);
 
             while (true) {
-                hub.run(1000 / 20);
+                hub.run(1000 / 5);
 
                 //System.out.print(dataCollector);
             }

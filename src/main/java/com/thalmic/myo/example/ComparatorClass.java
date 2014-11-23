@@ -40,8 +40,8 @@ public class ComparatorClass {
         System.out.println("Checking pattern list");
 
         for(int i=0;i<poses.size();i++){
-            System.out.println("Size of  pattern: " + poses.get(i).size());
-            System.out.println("Size of argPattenr: " + argPattern.size());
+        //    System.out.println("Size of  pattern: " + poses.get(i).size());
+        //    System.out.println("Size of argPattenr: " + argPattern.size());
             if(argPattern.size() == poses.get(i).size()){
                 System.out.println("There is a pattern ");
                 int j=0;
@@ -52,8 +52,8 @@ public class ComparatorClass {
                 }
                 if(j==argPattern.size()){
 
-                    System.out.println(messageHashMap.get(poses.get(i)));
-                    System.out.printf("Pattern found!");
+                  System.out.println(messageHashMap.get(poses.get(i)));
+         //           System.out.printf("Pattern found!");
                 }
             }
         }
