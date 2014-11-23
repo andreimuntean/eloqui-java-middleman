@@ -27,6 +27,7 @@ public class HelloMyo {
             }
 
             System.out.println("Connected to a Myo armband!");
+            Server.start("/feed",3000);
             DataCollector dataCollector = new DataCollector();
             hub.addListener(dataCollector);
 
