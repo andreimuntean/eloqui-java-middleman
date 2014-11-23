@@ -57,7 +57,6 @@ public class ComparatorClass {
 
                   System.out.println(messageHashMap.get(poses.get(i)));
                     System.out.printf("Pattern found!");
->>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
                 }
             }
         }
