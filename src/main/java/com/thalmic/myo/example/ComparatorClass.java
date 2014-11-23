@@ -1,6 +1,6 @@
 package com.thalmic.myo.example;
 
-import com.thalmic.myo.enums.PoseType;
+import com.thalmic.myo.enums.*;
 import javafx.geometry.Pos;
 
 import java.util.ArrayList;
@@ -12,54 +12,118 @@ import java.util.HashMap;
 public class ComparatorClass {
 
 
-    private ArrayList<ArrayList<PoseType>> poses = new ArrayList<ArrayList<PoseType>>();
-    private HashMap<ArrayList<PoseType>,String> messageHashMap = new HashMap<ArrayList<PoseType>, String>();
+    private ArrayList<ArrayList<MyoState>> myoPatterns = new ArrayList<ArrayList<MyoState>>();
+    private HashMap<ArrayList<MyoState>, String> messageHashMap = new HashMap<ArrayList<MyoState>, String>();
 
-    public ComparatorClass(){
-        ArrayList<PoseType> pattern1= new ArrayList<PoseType>();
-        pattern1.add(PoseType.FIST);
-        pattern1.add(PoseType.FINGERS_SPREAD);
+    public ComparatorClass()
+    {
+        // Hard coded patterns for testing.
+        ArrayList<MyoState> pattern = new ArrayList<MyoState>();
 
-        poses.add(pattern1);
+        /////////////
+        // Right arm.
+        pattern.add(new MyoState(Arm.ARM_RIGHT,
+                PoseType.FIST,
+                Rotation.NORMAL,
+                Direction.DOWN,
+                Orientation.OUTWARDS));
 
-
-        messageHashMap.put(pattern1,"Tocmai am am strans si am deschis pumnul!");
-
-        ArrayList<PoseType> pattern2= new ArrayList<PoseType>();
-
-        pattern2.add(PoseType.WAVE_IN);
-        pattern2.add(PoseType.WAVE_OUT);
-
-
-        poses.add(pattern2);
+        myoPatterns.add(pattern);
+        messageHashMap.put(pattern, "Yes.");
 
 
-        messageHashMap.put(pattern2,"Iti dau doua palme!");
+        pattern = new ArrayList<MyoState>();
+        pattern.add(new MyoState(Arm.ARM_RIGHT,
+                PoseType.FINGERS_SPREAD,
+                Rotation.NORMAL,
+                Direction.MEDIUM,
+                Orientation.OUTWARDS));
+
+        myoPatterns.add(pattern);
+        messageHashMap.put(pattern, "Half-Life 3 Confirmed");
+
+
+        pattern = new ArrayList<MyoState>();
+        pattern.add(new MyoState(Arm.ARM_RIGHT,
+                PoseType.FIST,
+                Rotation.NORMAL,
+                Direction.UP,
+                Orientation.OUTWARDS));
+
+        myoPatterns.add(pattern);
+        messageHashMap.put(pattern, "You are all awesome!");
+
+
+        pattern = new ArrayList<MyoState>();
+        pattern.add(new MyoState(Arm.ARM_RIGHT,
+                PoseType.FINGERS_SPREAD,
+                Rotation.NORMAL,
+                Direction.UP,
+                Orientation.OUTWARDS));
+
+        myoPatterns.add(pattern);
+        messageHashMap.put(pattern, "Good evening, Southampton!");
+
+
+        ////////////
+        // Left arm.
+        pattern = new ArrayList<MyoState>();
+        pattern.add(new MyoState(Arm.ARM_LEFT,
+                PoseType.FIST,
+                Rotation.NORMAL,
+                Direction.DOWN,
+                Orientation.OUTWARDS));
+
+        myoPatterns.add(pattern);
+        messageHashMap.put(pattern, "No.");
+
+
+        pattern = new ArrayList<MyoState>();
+        pattern.add(new MyoState(Arm.ARM_LEFT,
+                PoseType.FINGERS_SPREAD,
+                Rotation.NORMAL,
+                Direction.MEDIUM,
+                Orientation.OUTWARDS));
+
+        myoPatterns.add(pattern);
+        messageHashMap.put(pattern, "This device is not perfectly accurate. For now.");
+
+
+        pattern = new ArrayList<MyoState>();
+        pattern.add(new MyoState(Arm.ARM_LEFT,
+                PoseType.FINGERS_SPREAD,
+                Rotation.NORMAL,
+                Direction.UP,
+                Orientation.OUTWARDS));
+
+        myoPatterns.add(pattern);
+        messageHashMap.put(pattern, "Goodbye, earthlings!");
     }
-    public void compare(ArrayList argPattern){
-        System.out.println("Checking pattern list");
 
-        for(int i=0;i<poses.size();i++){
+    public void compare(ArrayList<MyoState> myoStatePattern){
+
+        for(int i=0;i<myoPatterns.size();i++){
         //    System.out.println("Size of  pattern: " + poses.get(i).size());
         //    System.out.println("Size of argPattenr: " + argPattern.size());
-            if(argPattern.size() == poses.get(i).size()){
-                System.out.println("There is a possible pattern ");
-                int j=0;
-                for(j=0;j<argPattern.size();j++){
-                    if(!argPattern.get(j).equals(poses.get(i).get(j))){
+            if(myoStatePattern.size() == myoPatterns.get(i).size()){
+                // System.out.println("There is a possible pattern ");
+                int j;
+                for(j=0; j<myoStatePattern.size(); j++){
+                    if(!myoStatePattern.get(j).equals(myoPatterns.get(i).get(j))){
                         break;
                     }
                 }
-                if(j==argPattern.size()){
-                    String message = messageHashMap.get(poses.get(i));
+                if(j==myoStatePattern.size()){
+                    String message = messageHashMap.get(myoPatterns.get(i));
                     System.out.println(message);
                     Server.addStringToQueue(message);
-
-                  System.out.println(messageHashMap.get(poses.get(i)));
-                    System.out.printf("Pattern found!");
+                    // System.out.printf("Pattern found!");
+                   // System.out.println(myoStatePattern.get(j).getPoseType().toString());
                 }
             }
+
         }
+        myoStatePattern.clear();
     }
 }
 

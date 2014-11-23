@@ -28,7 +28,13 @@ public class Server  {
         server.start();
     }
 
-    static public void addStringToQueue(String string){
+    static public void addStringToQueue(String string)
+    {
+        if (queue.size() > 1000)
+        {
+            queue.remove(0);
+        }
+
         queue.add(string);
     }
 
@@ -37,10 +43,10 @@ public class Server  {
             //String response = "This is the response";
             String response = "";
             if(queue.size()!=0) {
-                response = queue.get(queue.size() - 1);
+                response = queue.get(0);
+                queue.remove(0);
             }
 
-            queue.remove(queue.size()-1);
             t.sendResponseHeaders(200, response.length());
             OutputStream os = t.getResponseBody();
             os.write(response.getBytes());

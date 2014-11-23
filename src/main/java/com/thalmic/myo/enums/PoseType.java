@@ -8,5 +8,5 @@ public enum PoseType {
     FINGERS_SPREAD,
     RESERVED_1,
     THUMB_TO_PINKY,
-    UNKNOWN
+    POSETYPE_UNKNOWN
 }
