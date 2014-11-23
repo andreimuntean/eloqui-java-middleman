@@ -1,9 +1,7 @@
 myo-java
 ========
 
-Java Bindings for Myo
----------------------
+Using the unofficial Java bindings made by @NicholasAStuart, we have a Java application which transforms the gesture and gyroscope data input from 2 Myo wristbands into text.
 
-Java language bindings for the Myo Developer Kit. The JNI libraries are all enclosed for OSX and Windows. 
-
-If you need to build the Libraries yourself, please refer to this project: https://github.com/NicholasAStuart/myo-java-JNI-Library
+The text is then served sequentially and available to access in localhost:3000/test
+The mobile does text-to-speech.
