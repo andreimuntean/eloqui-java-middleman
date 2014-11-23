@@ -9,7 +9,7 @@ public final class Myo {
     }
 
     public void vibrate(VibrationType type) {
-	vibrate(type.ordinal());
+        vibrate(type.ordinal());
     }
 
     public native void requestRssi();

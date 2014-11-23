@@ -1,5 +1,6 @@
 package com.thalmic.myo.example;
 
+import com.thalmic.myo.DeviceListener;
 import com.thalmic.myo.Hub;
 import com.thalmic.myo.Myo;
 
@@ -11,28 +12,41 @@ import com.thalmic.myo.Myo;
  */
 public class HelloMyo {
     public static void main(String[] args) {
-	try {
-	    Hub hub = new Hub("com.example.hello-myo");
+        try {
+            Hub hub = new Hub("com.example.hello-myo");
 
-	    System.out.println("Attempting to find a Myo...");
-	    Myo myo = hub.waitForMyo(10000);
+            System.out.println("Attempting to find a Myo...");
+            Myo myo = hub.waitForMyo(10000);
 
-	    if (myo == null) {
-		throw new RuntimeException("Unable to find a Myo!");
-	    }
 
-	    System.out.println("Connected to a Myo armband!");
-	    DataCollector dataCollector = new DataCollector();
-	    hub.addListener(dataCollector);
+            if (myo == null) {
+                throw new RuntimeException("Unable to find a Myo!");
+            }else{
+                System.out.println("Attempting to find a second Myo...");
+                Myo myo2 = hub.waitForMyo(10000);
+                if(myo2 == null)
+                    throw new RuntimeException("Unable to find a Myo!");
+            }
 
-	    while (true) {
-		hub.run(1000 / 20);
-		System.out.print(dataCollector);
-	    }
-	} catch (Exception e) {
-	    System.err.println("Error: ");
-	    e.printStackTrace();
-	    System.exit(1);
-	}
+
+
+            System.out.println("Connected to a Myo armband!");
+            //Server server = new Server("/test",3000);
+            Server.start("/test",3000);
+            DataCollector dataCollector = new DataCollector();
+            hub.addListener(dataCollector);
+
+
+            while (true) {
+                hub.run(1000 / 20);
+
+                //System.out.print(dataCollector);
+            }
+
+        } catch (Exception e) {
+            System.err.println("Error: ");
+            e.printStackTrace();
+            System.exit(1);
+        }
     }
 }
