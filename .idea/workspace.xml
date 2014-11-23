@@ -28,14 +28,40 @@
       <file leaf-file-name="HelloMyo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/HelloMyo.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="816">
               <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+=======
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="935">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
+              <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="DataCollector.java" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.39823008" vertical-offset="404" max-vertical-offset="969">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#428#436#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+=======
+      <file leaf-file-name="DataCollector.java" pinned="false" current="false" current-in-tab="false">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/DataCollector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="74.5" vertical-offset="2375" max-vertical-offset="3655">
@@ -53,22 +79,51 @@
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#296#317#0" expanded="true" />
+<<<<<<< HEAD
+=======
+                <element signature="e#512#522#0" expanded="true" />
+                <element signature="e#776#786#0" expanded="true" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Pose.java" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="DataCollector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/DataCollector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="3077">
+              <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+=======
+      <file leaf-file-name="Pose.java" pinned="false" current="false" current-in-tab="false">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Pose.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="816">
               <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Hub.java" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="ComparatorClass.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/ComparatorClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1156">
+              <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+=======
+      <file leaf-file-name="Hub.java" pinned="false" current="false" current-in-tab="false">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Hub.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1164" max-vertical-offset="3723">
@@ -103,6 +158,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="357">
               <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
               <folding />
             </state>
           </provider>
@@ -118,9 +174,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/DataCollector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/HelloMyo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/ComparatorClass.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/Hub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/Pattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/Pattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/Quaternion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/Comparator.java" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/DataCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/ComparatorClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/HelloMyo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/Server.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/ComparatorClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/HelloMyo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/DataCollector.java" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
       </list>
     </option>
   </component>
@@ -156,7 +231,14 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,6 +313,13 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -252,7 +341,15 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+<<<<<<< HEAD
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+=======
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
   </component>
   <component name="RunManager" selected="Application.HelloMyo">
     <configuration default="false" name="HelloMyo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -348,6 +445,8 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -361,6 +460,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -389,6 +489,22 @@
       <listeners />
       <method />
     </configuration>
+<<<<<<< HEAD
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+=======
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -448,16 +564,32 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3540305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3540305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -487,6 +619,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/HelloMyo.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding />
@@ -555,6 +688,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/HelloMyo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
+=======
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="850">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding />
         </state>
@@ -562,7 +699,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/DataCollector.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="3128">
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="3366">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <caret line="80" column="85" selection-start-line="80" selection-start-column="85" selection-end-line="80" selection-end-column="85" />
           <folding />
         </state>
@@ -572,16 +713,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
           <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#296#317#0" expanded="true" />
           </folding>
+=======
+          <folding />
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Pose.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="816">
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="952">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
@@ -589,7 +738,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Hub.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="1164" max-vertical-offset="3723">
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="3876">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <caret line="88" column="42" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="42" />
           <folding />
         </state>
@@ -597,7 +750,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/DeviceListener.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="561">
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="578">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
@@ -605,15 +762,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/AbstractDeviceListener.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="935">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Myo.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="357">
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
@@ -621,6 +787,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/HelloMyo.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
@@ -639,10 +810,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1207">
           <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+<<<<<<< HEAD
+          <folding />
+=======
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#296#317#0" expanded="true" />
           </folding>
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
         </state>
       </provider>
     </entry>
@@ -743,7 +918,25 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Pose.java">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Myo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/DeviceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/ComparatorClass.java">
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
@@ -753,16 +946,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Myo.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Hub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1164" max-vertical-offset="3723">
           <caret line="88" column="42" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="42" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/AbstractDeviceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="935">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/DataCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="3077">
+          <caret line="80" column="85" selection-start-line="80" selection-start-column="85" selection-end-line="80" selection-end-column="85" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <folding />
         </state>
       </provider>
@@ -775,30 +988,77 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/AbstractDeviceListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="935">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/HelloMyo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="935">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33274338" vertical-offset="13514" max-vertical-offset="14722">
+          <caret line="848" column="0" selection-start-line="848" selection-start-column="0" selection-end-line="848" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/Myo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/DataCollector.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="74.5" vertical-offset="2375" max-vertical-offset="3655">
           <caret line="27" column="10" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="10" />
+=======
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.33274338" vertical-offset="883" max-vertical-offset="3723">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="-6.392857" vertical-offset="1164" max-vertical-offset="3723">
+          <caret line="88" column="42" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="42" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/HelloMyo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="816">
           <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/ComparatorClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1156">
+          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/DeviceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/ComparatorClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4493392" vertical-offset="141" max-vertical-offset="1207">
@@ -807,9 +1067,39 @@
             <element signature="imports" expanded="true" />
             <element signature="e#296#317#0" expanded="true" />
           </folding>
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/DataCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3077">
+          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/AbstractDeviceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5345133" vertical-offset="370" max-vertical-offset="935">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
+          <folding />
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thalmic/myo/example/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39823008" vertical-offset="404" max-vertical-offset="969">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#436#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 4cd5e2793908d0eee88e880b85a9c53b4b201f6c
   </component>
   <component name="masterDetails">
     <states>

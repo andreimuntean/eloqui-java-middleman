@@ -24,11 +24,19 @@ public class HelloMyo {
             }else{
                 System.out.println("Attempting to find a second Myo...");
                 Myo myo2 = hub.waitForMyo(10000);
+<<<<<<< HEAD
+                if(myo2 == null)
+                    throw new RuntimeException("Unable to find a Myo!");
             }
 
+
+
             System.out.println("Connected to a Myo armband!");
+            //Server server = new Server("/test",3000);
+            Server.start("/test",3000);
             DataCollector dataCollector = new DataCollector();
             hub.addListener(dataCollector);
+
 
             while (true) {
                 hub.run(1000 / 5);

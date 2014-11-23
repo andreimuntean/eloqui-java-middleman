@@ -43,7 +43,7 @@ public class ComparatorClass {
         //    System.out.println("Size of  pattern: " + poses.get(i).size());
         //    System.out.println("Size of argPattenr: " + argPattern.size());
             if(argPattern.size() == poses.get(i).size()){
-                System.out.println("There is a pattern ");
+                System.out.println("There is a possible pattern ");
                 int j=0;
                 for(j=0;j<argPattern.size();j++){
                     if(!argPattern.get(j).equals(poses.get(i).get(j))){
@@ -51,9 +51,13 @@ public class ComparatorClass {
                     }
                 }
                 if(j==argPattern.size()){
+                    String message = messageHashMap.get(poses.get(i));
+                    System.out.println(message);
+                    Server.addStringToQueue(message);
 
                   System.out.println(messageHashMap.get(poses.get(i)));
-         //           System.out.printf("Pattern found!");
+                    System.out.printf("Pattern found!");
+>>>>>>> a719a2e035772363197f17a6ff5b2b51aa5407d1
                 }
             }
         }
