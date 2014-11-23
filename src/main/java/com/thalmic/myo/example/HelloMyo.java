@@ -24,6 +24,7 @@ public class HelloMyo {
             }else{
                 System.out.println("Attempting to find a second Myo...");
                 Myo myo2 = hub.waitForMyo(10000);
+<<<<<<< HEAD
                 if(myo2 == null)
                     throw new RuntimeException("Unable to find a Myo!");
             }

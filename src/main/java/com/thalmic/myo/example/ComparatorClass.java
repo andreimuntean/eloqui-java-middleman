@@ -43,6 +43,7 @@ public class ComparatorClass {
             System.out.println("Size of  pattern: " + poses.get(i).size());
             System.out.println("Size of argPattenr: " + argPattern.size());
             if(argPattern.size() == poses.get(i).size()){
+<<<<<<< HEAD
                 System.out.println("There is a possible pattern ");
                 int j=0;
                 for(j=0;j<argPattern.size();j++){
@@ -51,9 +52,11 @@ public class ComparatorClass {
                     }
                 }
                 if(j==argPattern.size()){
+<<<<<<< HEAD
                     String message = messageHashMap.get(poses.get(i));
                     System.out.println(message);
                     Server.addStringToQueue(message);
+
                     System.out.printf("Pattern found!");
                 }
             }
