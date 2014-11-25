@@ -23,96 +23,40 @@ public class ComparatorClass {
         /////////////
         // Right arm.
 
-
         pattern = new ArrayList<MyoState>();
         pattern.add(new MyoState(Arm.ARM_RIGHT,
-                PoseType.WAVE_IN,
-                Rotation.NORMAL,
-                Direction.MEDIUM,
-                Orientation.OUTWARDS
-        ));
-        myoPatterns.add(pattern);
-        messageHashMap.put(pattern, "we are");
-
-        pattern = new ArrayList<MyoState>();
-        pattern.add(new MyoState(Arm.ARM_RIGHT,
-                PoseType.WAVE_IN,
+                PoseType.FIST,
                 Rotation.NORMAL,
                 Direction.UP,
                 Orientation.OUTWARDS
         ));
         myoPatterns.add(pattern);
-        messageHashMap.put(pattern, "voice");
+        messageHashMap.put(pattern, "Hi, we are Eloqui!");
+
 
         pattern = new ArrayList<MyoState>();
         pattern.add(new MyoState(Arm.ARM_RIGHT,
-                PoseType.FINGERS_SPREAD,
+                PoseType.FIST,
                 Rotation.NORMAL,
                 Direction.DOWN,
                 Orientation.OUTWARDS
         ));
         myoPatterns.add(pattern);
-        messageHashMap.put(pattern, "from");
-
-        pattern = new ArrayList<MyoState>();
-        pattern.add(new MyoState(Arm.ARM_RIGHT,
-                PoseType.FIST,
-                Rotation.NORMAL,
-                Direction.MEDIUM,
-                Orientation.OUTWARDS
-        ));
-        myoPatterns.add(pattern);
-        messageHashMap.put(pattern, "will have");
-
-
-
-
-
-
-
-
-
-
-
+        messageHashMap.put(pattern, "From now on");
 
 
         ////////////
         // Left arm.
 
-
-
-
-
-
-        pattern.add(new MyoState(Arm.ARM_LEFT,
-                PoseType.FINGERS_SPREAD,
-                Rotation.NORMAL,
-                Direction.MEDIUM,
-                Orientation.OUTWARDS));
-
-        myoPatterns.add(pattern);
-        messageHashMap.put(pattern, "Hi!");
-
         pattern = new ArrayList<MyoState>();
         pattern.add(new MyoState(Arm.ARM_LEFT,
-                PoseType.WAVE_OUT,
+                PoseType.FIST,
                 Rotation.NORMAL,
-                Direction.MEDIUM,
+                Direction.DOWN,
                 Orientation.OUTWARDS
         ));
         myoPatterns.add(pattern);
-        messageHashMap.put(pattern, "now on");
-
-
-        pattern = new ArrayList<MyoState>();
-        pattern.add(new MyoState(Arm.ARM_LEFT,
-                PoseType.WAVE_IN,
-                Rotation.NORMAL,
-                Direction.MEDIUM,
-                Orientation.OUTWARDS
-        ));
-        myoPatterns.add(pattern);
-        messageHashMap.put(pattern, "persons");
+        messageHashMap.put(pattern, "Mute persons will have a voice");
 
 
         pattern = new ArrayList<MyoState>();
@@ -123,28 +67,7 @@ public class ComparatorClass {
                 Orientation.OUTWARDS
         ));
         myoPatterns.add(pattern);
-        messageHashMap.put(pattern, "awesome");
-
-
-        pattern = new ArrayList<MyoState>();
-        pattern.add(new MyoState(Arm.ARM_LEFT,
-                PoseType.WAVE_IN,
-                Rotation.NORMAL,
-                Direction.UP,
-                Orientation.OUTWARDS
-        ));
-        myoPatterns.add(pattern);
-        messageHashMap.put(pattern, "this");
-
-
-
-
-
-
-
-
-
-
+        messageHashMap.put(pattern, "HackaGlobal Hackathons are awesome!");
     }
 
     public void compare(ArrayList<MyoState> myoStatePattern){

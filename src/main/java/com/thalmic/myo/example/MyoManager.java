@@ -3,7 +3,6 @@ package com.thalmic.myo.example;
 import com.thalmic.myo.enums.Arm;
 
 import java.util.HashMap;
-
 public class MyoManager
 {
     private static HashMap<String, Arm> armBindings = new HashMap<String, Arm>();
